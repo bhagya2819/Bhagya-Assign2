@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="#t1">Go to table 1</a><br>
+    <a href="#t2">Go to table 2</a><br>
+    <a href="#t3">Go to table 3</a><br>
+    <a href="#t4">Go to table 4</a><br>
+    <a href="#t5">Go to table 5</a><br>
+    <a href="#t6">Go to table 6</a><br>
+    <a href="#t7">Go to table 7</a><br>
+    <br><br><br><br><br>
+
+    <table id="t1" border="1" cellspacing="0">
+      <tr>
+        <th>Day</th>
+        <th>Subject</th>
+        <th>Start Time</th>
+        <th>End Time</th>
+        <th>Room No</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Mathematics</td>
+        <td>9:00 AM</td>
+        <td>10:00 AM</td>
+        <td>101</td>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Physics</td>
+        <td>10:15 PM</td>
+        <td>11:15 PM</td>
+        <td> 102</td>
+      </tr>
+      <tr>
+          <td>Tuesday</td>
+          <td>Chemistry</td>
+          <td>9:00 AM</td>
+          <td>10:00 PM</td>
+          <td> 103</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>Biology</td>
+          <td>10:30 PM</td>
+          <td>11:30 PM</td>
+          <td> 104</td>
+        </tr>
+      </table>
+      <br><br><br><br><br><br><br><br>
+      <table id="t2" border="1" cellspacing="0">
+        <tr>
+          <th>Day</th>
+          <th>Subject</th>
+          <th>Start Time</th>
+          <th>End Time</th>
+          <th>Room No</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Monday</td>
+          <td>Maths</td>
+          <td>9:00 AM</td>
+          <td>10:00 AM</td>
+          <td>101</td>
+        </tr>
+        <tr>
+          <td colspan="2">Physics</td>
+          <td>11:15 PM</td>
+          <td> 102</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Tuesday</td>
+            <td>Chemistry</td>
+            <td>9:00 AM</td>
+            <td>10:00 PM</td>
+            <td> 103</td>
+          </tr>
+          <tr>
+            <td colspan="3">Practical Lab</td>
+          </tr>
+        </table>
+        <br><br><br><br><br><br><br><br>
+        <table id="t3" border="1" cellspacing="0">
+        
+          <tr>
+            <th>Day</th>
+            <th>Subject</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+            <th>Room No</th>
+          </tr>
+          <tr>
+            <td rowspan="2">Monday</td>
+            <td>Mathematics</td>
+            <td>9:00 AM</td>
+            <td>10:00 AM</td>
+            <td>101</td>
+          </tr>
+          <tr>
+            <td>Physics</td>
+            <td>10:15 PM</td>
+            <td>11:15 PM</td>
+            <td> 102</td>
+          </tr>
+          <tr>
+              <td>Tuesday</td>
+              <td>Chemistry</td>
+              <td>9:00 AM</td>
+              <td>10:00 PM</td>
+              <td> 103</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>Biology</td>
+              <td>10:30 PM</td>
+              <td>11:30 PM</td>
+              <td> 104</td>
+            </tr>
+          </table>
+          <br><br><br><br><br><br><br><br>
+          <table id="t4" border="1" cellspacing="0">
+            <tr>
+              <th align="center">Hours</th>
+              <th>1</th>
+              <th>2</th>
+              <th></th>
+              <th>3</th>
+              <th>4</th>
+              <th></th>
+              <th>5</th>
+              <th>6</th>
+            </tr>
+            <tr>
+              <td align="center">Time</td>
+              <td>8:00-8:30</td>
+              <td>8:30-9:00</td>
+              <td>9:00-9:30</td>
+              <td>9:30-10:30</td>
+              <td>10:30-12:00</td>
+              <td>12:00-1:00</td>
+              <td>1:00-2:00</td>
+              <td>3:00-4:00</td>
+            </tr>
+            <tr>
+              <td align="center">Monday</td>
+              <td colspan="2">Lab</td>
+              <td valign="top" rowspan="5">BREAK</td>
+              <td>S1</td>
+              <td>S3</td>
+              <td rowspan="5" valign="top">LUNCH BREAK</td>
+              <td>S3</td>
+              <td>S4</td>
+            </tr>
+            <tr>
+              <td align="center">Tuesday</td>
+              <td>S4</td>
+              <td>S3</td>
+              <td>S2</td>
+              <td>S1</td>
+              <td colspan="2">Lab</td>
+            </tr>
+            <tr>
+              <td align="center">Wednesday</td>
+              <td colspan="2">LAB</td>
+              <td>S3</td>
+              <td>S2</td>
+              <td>S1</td>
+              <td>S4</td>
+            </tr>
+            <tr>
+              <td align="center">Thrusday</td>
+              <td colspan="2">SPORTS</td>
+              <td>S4</td>
+              <td>S1</td>
+              <td>S2</td>
+              <td>S3</td>
+            </tr>
+            <tr>
+              <td align="center">Friday</td>
+              <td>S4</td>
+              <td>S3</td>
+              <td>S2</td>
+              <td>S1</td>
+              <td colspan="2">CLUBS</td>
+            </tr>
+    
+          </table>
+          <br><br><br><br><br><br><br><br>
+          <table id="t5" border="1" cellspacing="0">
+            <tr>
+              <th>Reaction Name</th>
+              <th>Reactants</th>
+              <th>Products</th>
+              <th>Reaction type</th>
+            </tr>
+            <tr>
+              <td>Combustion of Methane</td>
+              <td>CH<sub>4</sub>+2O<sub>2</sub></td>
+              <td>CO<sub>2</sub>+2H<sub>2O</sub></td>
+              <td><u>Exothermic</u></td>
+            </tr>
+            <tr>
+              <td>Replacement Reaction</td>
+              <td>Zn+<strike>HCl</strike><u>(Replaced)</u></td>
+              <td>ZnCl<sub>2</sub>+H<sub>2</sub></td>
+              <td>Single Replacement</td>
+            </tr>
+            <tr>
+                <td>Neutralization</td>
+                <td>H<sub>2</sub>SO<sub>4</sub>+2NaOH</td>
+                <td>Na<sub>2</sub>SO<sub>4</sub>+2H<sub>2</sub>O</td>
+                <td>Acid-Base</td>
+              </tr>
+            </table>
+            <br><br><br><br><br><br><br><br>
+            <table id="t6" border="1" cellspacing="0">
+              <tr>
+                <th>Formuala Name</th>
+                <th>Equation</th>
+                <th>Description</th>
+              </tr>
+              <tr>
+                <td>Pythagorean Theorem</td>
+                <td>a<sup>2</sup>+b<sup>2</sup>=c<sup>2</sup></td>
+                <td>Describes the relationship between the sides of a <b>right triangle,</b> where <u>c</u> is the hypotenuse.</td>
+              </tr>
+              <tr>
+                  <td>Quadratic Formula</td>
+                  <td>x=(-b&plusmn;&radic;(b<sup>2</sup>-4ac))/2a</td>
+                  <td>Used to find the roots of a <b>quadratic equation:</b>ax<sup>2</sup>+bx+c=0.</td>
+                </tr>
+                <tr>
+                  <td>Newton's Second Law</td>
+                  <td>F=ma</td>
+                  <td>States that force(F) is the product of mass(m) and acceleration(a).</td>
+                </tr>
+                <tr>
+                  <td>Area of a Circle</td>
+                  <td>A=&#8508;r<sup>2</sup></td>
+                  <td>Represents the area(A) of a circle with radius <b>r</b>.</td>
+                </tr>
+                <tr>
+                  <td>Einstein's Mass Energy Equivalence</td>
+                  <td>E=mc<sup>2</sup></td>
+                  <td>Relates energy(E) to mass(m) and the speed of light(c). One ogf the most <u>famous formulas </u>in physics.</td>
+                </tr>
+              </table> 
+              <br><br><br><br><br><br><br><br>
+        <table id="t7" border="1" cellspacing="0">
+          <h2>Chemical Reaction Timeline</h2>
+<ol>
+    <li ><p><b>Reaction: </b>Combustion of Hydrogen</p>
+<p>2H<sub>2</sub>+O<sub>2</sub>->2H<sub>2</sub>O</p>
+<p><u>Explanation</u>:This reaction releases energy as water (H<sub>2</sub>O) is formed. It is an <b>exothermic </b>reaction, meaning it releases heat.</p></li>
+    
+
+<li ><p><b>Reaction: </b>Dissociation of Water</p>
+<p>H<sub>2</sub>O->H<sup>+</sup>+OH<sup>-</sup></p>
+<p><u>Explanation</u>:Water dissociates into hydrogen ions(H<sup>+</sup>) and hydroxide ions (OH<sup>-</sup>).This process is essential in <b>acid-base chemistry.</b></p></li>
+
+<li ><p><b>Reaction: </b>Synthesis of Ammonia (Haber Process)</p>
+<p><strike>N<sub>2</sub>+H<sub>2</sub>->NH<sub>3</sub></strike> (Incorrect Stoichiometry)</p>
+<p>Corrected: N<sub>2</sub>+H<sub>2</sub>->NH<sub>3</sub></p>
+<p><u>Explanation</u>:This Reaction combines nitrogen(N<sub>2</sub>) and hydrogen (H<sub>2</sub>) to form ammonia (NH<sub>3</sub>). It requires a high temperature and pressure.</b></p></li>
+</ol>    
+        </table>
+      </body>
+      </html>
